@@ -14,7 +14,7 @@ def password(message):
 @bot.message_handler(commands=['info'])
 def info(message):
     bot.reply_to(message, """\
-список команд: /start, /info
+список команд: /start, /info, /password
 """)
 
 @bot.message_handler(commands=['start'])
